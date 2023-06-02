@@ -7,6 +7,7 @@
     --bg-btn-color: #f4f4fd;
     --border-btn-color: #e7e9fc;
     --color-icons-customers: #8e8f99;
+    --color-social-media: #ffffff;
 }
 
 body{
@@ -413,6 +414,23 @@ a {
 
 .footer-logo-text {
     color: #f4f4fd;
+}
+
+.footer-wraper{
+    align-items: baseline;
+}
+
+.footer-log-inf{
+    margin-right: 120px;
+}
+
+.footer-soc-med{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-social-media);
+    margin-bottom: 16px;
 }
 
 /* PORTFOIO_PAGE_START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
