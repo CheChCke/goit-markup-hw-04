@@ -328,7 +328,7 @@ a {
 }
 
 .soc-icon-img:hover,
-.soc-icon.img:focus{
+.soc-icon-img:focus{
     background-color: #404bbf;
 }
 
@@ -347,6 +347,17 @@ a {
     /* h3-title-description-frm-section2 */
     /* p-text-descroption-from-section2 */
 /* Section4_END */
+.client-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-h2{
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--color-menu-text);
+    margin-bottom: 72px;
+}
 /* FOOTER_START */
 .footer{
     background-color: var(--color-hero-bg);
