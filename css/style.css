@@ -368,6 +368,7 @@ a {
 .client-items{
     width: calc((100% - 120px) / 6);
     height: 88px;
+    gap: 24px;
 }
 
 .client-items-logo{
@@ -381,8 +382,8 @@ a {
     color: var(--color-icons-customers);
 }
 
-.client-otems-logo:hover,
-.client-otems-logo:focus{
+.client-items-logo:hover,
+.client-items-logo:focus{
     border-color: #404bbf;
     color: #404bbf;
 }
