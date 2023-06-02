@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .main-hero{
     background-color: var(--color-hero-bg);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/index-img/people-office\ 1.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/index-img/people-office.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
