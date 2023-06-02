@@ -27,6 +27,9 @@ h1, h2, h3, h4, h5, h6, p{
 
 .header-main-container{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container{
@@ -131,8 +134,14 @@ a {
 
 .main-hero{
     background-color: var(--color-hero-bg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/index-img/people-office\ 1.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .main-title{
@@ -206,6 +215,16 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-small-text);
+}
+
+.list-about-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .about-us-description{
