@@ -114,8 +114,7 @@ h1, h2, h3, h4, h5, h6, p{
     margin-right: 0px;
 }
 
-.nav-addres,
-a {
+.nav-addres{
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;   
@@ -432,6 +431,38 @@ a {
     color: var(--color-social-media);
     margin-bottom: 16px;
 }
+
+.soc-footer-list{
+    display: flex;
+    gap: 16px;
+}
+
+.soc-item-list{
+    width: 40px;
+    height: 40px;
+}
+
+.soc-footer-img{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-main-logo);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.soc-footer-img:hover,
+.soc-footer-img:focus{
+    background-color: #31d0aa;
+    background-color: #31d0aa;
+}
+
+.footer-icon-svg{
+    fill: #f4f4fd
+}
+
+
 
 /* PORTFOIO_PAGE_START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /* FTER_NAVIGATION_START */
