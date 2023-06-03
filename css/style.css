@@ -97,8 +97,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .menu:hover,
-.menu:focus,
-.information:hover, :focus {
+.menu:focus{
     color: var(--color-menu-accent-hover)
 }
 
@@ -179,7 +178,8 @@ h1, h2, h3, h4, h5, h6, p{
     margin-top: 48px;
 }
 
-.button-hero-main:hover, :focus{
+.button-hero-main:hover, 
+.button-hero-main:focus{
     background-color: var(--color-menu-accent-hover)
 }
 /* HERO_END */
